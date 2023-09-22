@@ -23,6 +23,11 @@
     margin-left: 5%;
 }
 
+.ender-hist {
+    border-bottom: 1px solid #bdbdbd;
+    margin-bottom: .7rem;
+}
+
 .ender {
     margin-top: .3rem;
     font-weight: bold;
@@ -30,9 +35,9 @@
 
 .cep {
     margin-top: -.8rem;
+    margin-bottom: .2rem;
     color: #bdbdbd;
-    border-bottom: 1px solid #bdbdbd;
-    padding-bottom: .5rem;
+
 }
 
 .p-card {
@@ -42,6 +47,7 @@
 
 .img-card {
     margin-top: .9rem;
+    border-radius: 1rem;
 }
 
 @media screen and (min-width: 470px) {
