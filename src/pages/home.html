@@ -8,7 +8,6 @@
     <!-- FontAwesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     
-
     <!-- BS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
 
@@ -19,38 +18,15 @@
 
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg nav-web">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="/src/pages/tela.home.html">Easy Carros</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="/src/pages/tela.perfil.html">Minha Conta</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="/src/pages/tela.pagamento.html">Pagamentos</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="/src/pages/tela.busca.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    Carros
-                        </a>
-                        <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="/src/pages/tela.busca.html">Procurar</a></li>
-                        <li><hr class="dropdown-divider"></li>
-                        <li><a class="dropdown-item" href="/src/pages/tela.busca.html">Alugar</a></li>
-                        <li><hr class="dropdown-divider"></li>
-                        <li><a class="dropdown-item" href="/src/pages/tela.busca.html">Dirigir</a></li>
-                        </ul>
-                    </li>
-                    </ul>
-                    <form class="d-flex" role="search" action="../index.html">
-                    <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
-                    <button class="btn btn-outline-primary" type="submit">Buscar</button>
-                    </form>
-                </div>
+        <nav>
+            <div class="menu-carros">
+                <a href="">Easy Carros</a>
+                <a href="">Minha Conta</a>
+                <a href="">Pagamentos</a>
+                <div>
+                    <a href="">Carros</a>
+                    <i class="fa-solid fa-caret-down"></i>
+                </div>               
             </div>
         </nav>
     </header>
@@ -159,22 +135,22 @@
         <div class="footer-buttons d-flex justify-content-center">
             <ul class="list-group list-group-horizontal ">
                 <li class="footer">
-                    <a class="footer d-flex justify-content-center mt-2" href="/src/pages/tela.home.html">
+                    <a class="footer d-flex justify-content-center mt-2" href="/src/pages/home.html">
                         <i class="fa-solid fa-house fa-2xl d-flex justify-content-center mb-3">
                         </i>Home</a>
                 </li>
                 <li class="footer">
-                    <a class=" footer d-flex justify-content-center mt-2" href="/src/pages/tela.busca.html">
+                    <a class=" footer d-flex justify-content-center mt-2" href="/src/pages/busca.html">
                         <i class="fa-solid fa-magnifying-glass fa-2xl d-flex justify-content-center mb-3">
                         </i>Buscar</a>
                 </li>
                 <li class="footer">
-                    <a class="footer d-flex justify-content-center mt-2" href="/src/pages/tela.pagamento.html">
+                    <a class="footer d-flex justify-content-center mt-2" href="/src/pages/pagamento.html">
                         <i class="fa-solid fa-credit-card fa-2xl d-flex justify-content-center mb-3">
                         </i>Pagamento</a>
                 </li>
                 <li class="footer">
-                    <a class="footer d-flex justify-content-center mt-2" href="/src/pages/tela.perfil.html">
+                    <a class="footer d-flex justify-content-center mt-2" href="/src/pages/perfil.html">
                         <i class="fa-solid fa-user fa-2xl d-flex justify-content-center mb-3">
                         </i>Perfil</a>
                 </li>

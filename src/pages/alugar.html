@@ -22,40 +22,19 @@
 
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="/src/pages/tela.home.html">Easy Carros</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="/src/pages/tela.perfil.html">Minha Conta</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="/src/pages/tela.pagamento.html">Pagamentos</a>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Carros
-                            </a>
-                            <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="#">Procurar</a></li>
-                                <li><hr class="dropdown-divider"></li>
-                                <li><a class="dropdown-item" href="#">Alugar</a></li>
-                                <li><hr class="dropdown-divider"></li>
-                                <li><a class="dropdown-item" href="#">Dirigir</a></li>
-                            </ul>
-                        </li>
-                    </ul>
-                    <form class="d-flex" role="search" action="../index.html">
-                        <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
-                        <button class="btn btn-outline-primary" type="submit">Buscar</button>
-                    </form>
-                </div>
+        <nav>
+            <div class="menu-carros">
+                <a href="">Easy Carros</a>
+                <a href="">Minha Conta</a>
+                <a href="">Pagamentos</a>
+                <div>
+                    <a href="">Carros</a>
+                    <i class="fa-solid fa-caret-down"></i>
+                </div>               
             </div>
         </nav>
     </header>
+    
     <iframe src="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d29256.607415752384!2d-46.65510457289765!3d-23.565716400033427!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e0!4m5!1s0x94ce59cd41d6ba3b%3A0x93cc59e15c867a28!2sBanco%20Safra%20-%20Ag.%200018%20-%20Trianon%20-%20Avenida%20Paulista%20-%20Bela%20Vista%2C%20S%C3%A3o%20Paulo%20-%20SP!3m2!1d-23.558044!2d-46.6597198!4m5!1s0x94ce597997545059%3A0x8dbbac51c8c9e394!2sAv.%20Lins%20de%20Vasconcelos%20-%20Cambuci%2C%20S%C3%A3o%20Paulo%20-%20SP!3m2!1d-23.5769476!2d-46.623658999999996!5e0!3m2!1spt-BR!2sbr!4v1695248313349!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     <div class="card text-bg-dark mb-3" style="max-width: 18rem;">
         <div class="card-header"><h4>Chevrolet Onix</h4> <br> 870km rodados    40L</div>
@@ -82,7 +61,7 @@
         <div class="footer-buttons d-flex justify-content-center">
             <ul class="list-group list-group-horizontal ">
                 <li class="footer">
-                    <a class="footer d-flex justify-content-center mt-2" href="/src/pages/tela.home.html">
+                    <a class="footer d-flex justify-content-center mt-2" href="/src/pages/home.html">
                         <i class="fa-solid fa-house fa-2xl d-flex justify-content-center mb-3">
                         </i>Home</a>
                 </li>
@@ -92,12 +71,12 @@
                         </i>Buscar</a>
                 </li>
                 <li class="footer">
-                    <a class="footer d-flex justify-content-center mt-2" href="./tela.pagamento.html">
+                    <a class="footer d-flex justify-content-center mt-2" href="./pagamento.html">
                         <i class="fa-solid fa-credit-card fa-2xl d-flex justify-content-center mb-3">
                         </i>Pagamento</a>
                 </li>
                 <li class="footer">
-                    <a class="footer d-flex justify-content-center mt-2" href="/src/pages/tela.perfil.html">
+                    <a class="footer d-flex justify-content-center mt-2" href="/src/pages/perfil.html">
                         <i class="fa-solid fa-user fa-2xl d-flex justify-content-center mb-3">
                         </i>Perfil</a>
                 </li>

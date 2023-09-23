@@ -8,7 +8,6 @@
     <!-- FontAwesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     
-
     <!-- BS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
 
@@ -17,86 +16,50 @@
 </head>
 
 <body>
-    <!-- <header>
-        <nav class="navbar navbar-expand-lg nav-web">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="/src/pages/tela.home.html">Easy Carros</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="/src/pages/tela.perfil.html">Minha Conta</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="/src/pages/tela.pagamento.html">Pagamentos</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="/src/pages/tela.busca.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    Carros
-                        </a>
-                        <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="/src/pages/tela.busca.html">Procurar</a></li>
-                        <li><hr class="dropdown-divider"></li>
-                        <li><a class="dropdown-item" href="/src/pages/tela.busca.html">Alugar</a></li>
-                        <li><hr class="dropdown-divider"></li>
-                        <li><a class="dropdown-item" href="/src/pages/tela.busca.html">Dirigir</a></li>
-                        </ul>
-                    </li>
+    <header>
+        <nav>
+            <div class="menu-carros">
+                <a href="" class="teste">Easy Carros</a>
+                <a href="">Minha Conta</a>
+                <a href="">Pagamentos</a>
+                <!-- <div>
+                    <a href="">Carros</a>
+                    <i class="fa-solid fa-caret-down"></i>
+                </div>   -->
+                <div class="dropdown">
+                    <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Carros
+                    </button>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Procurar</a></li>
+                        <li><a class="dropdown-item" href="#">Alugar</a></li>
+                        <li><a class="dropdown-item" href="#">Dirigir</a></li>
                     </ul>
-                    <form class="d-flex" role="search">
-                    <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
-                    <button class="btn btn-outline-primary" type="submit">Buscar</button>
-                    </form>
-                </div>
+                </div>             
             </div>
+            
         </nav>
-    </header> -->
+    </header>
 
     <section>
+
         <div class="d-flex justify-content-center mt-5">
             <img src="./assets/images/easycarros-logo 1.png" alt="">
         </div>
+
         <div class="d-flex justify-content-center flex-column ms-5 me-5 mt-3 titulo-index">
             <h1>Encontre, Alugue, Dirija!</h1>
             <p>O carro perfeito ao seu alcance onde você estiver.</p>
         </div>
+
         <div class="d-grid gap-2 col-6 mx-auto mt-2">
-            <form action="./pages/tela.home.html" class="d-grid gap-2 mt-2 botoes">
+            <form action="./pages/home.html" class="d-grid gap-2 mt-2 botoes">
                 <button class="btn btn-cadastro rounded-pill" type="submit">Cadastre-se</button>
                 <button class="btn btn-login rounded-pill" type="submit">Entrar</button>
             </form>
         </div>
+
     </section>
-
-    <!-- <footer>
-        <div class="footer-buttons d-flex justify-content-center">
-            <ul class="list-group list-group-horizontal ">
-                <li class="footer">
-                    <a class="footer d-flex justify-content-center mt-2" href="/src/pages/tela.home.html">
-                        <i class="fa-solid fa-house fa-2xl d-flex justify-content-center mb-3">
-                        </i>Home</a>
-                </li>
-                <li class="footer">
-                    <a class=" footer d-flex justify-content-center mt-2" href="/src/pages/tela.busca.html">
-                        <i class="fa-solid fa-magnifying-glass fa-2xl d-flex justify-content-center mb-3">
-                        </i>Buscar</a>
-                </li>
-                <li class="footer">
-                    <a class="footer d-flex justify-content-center mt-2" href="/src/pages/tela.pagamento.html">
-                        <i class="fa-solid fa-credit-card fa-2xl d-flex justify-content-center mb-3">
-                        </i>Pagamento</a>
-                </li>
-                <li class="footer">
-                    <a class="footer d-flex justify-content-center mt-2" href="/src/pages/tela.perfil.html">
-                        <i class="fa-solid fa-user fa-2xl d-flex justify-content-center mb-3">
-                        </i>Perfil</a>
-                </li>
-            </ul>
-        </div>
-    </footer> -->
-
 
     <!-- BS-JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
